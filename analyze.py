@@ -12,7 +12,7 @@
 #
 # Risk score: min-max scale both predictive columns, weight km_since_service 60 % and
 # load_factor 40 % (proportional to their observed mean gaps), multiply to 0-100.
-# A car scoring above ~65 is in the same territory as most cars that later broke down.
+# A car scoring above ~65 is in the same territory as most cars that later broke down.git
 
 import pandas as pd
 
